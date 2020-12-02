@@ -11,8 +11,8 @@ import org.apache.logging.log4j.Logger;
  * Released under gnu public licence
  */
 
-@Mod(modid = ToastMod.MODID, name = ToastMod.NAME, version = ToastMod.VERSION)
-public class ToastMod
+@Mod(modid = Main.MODID, name = Main.NAME, version = Main.VERSION)
+public class Main
 {
     public static final String MODID = "ndbToastMod";
     public static final String NAME = "Nicholas Blackburn's ToastMod";
