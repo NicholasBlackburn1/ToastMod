@@ -1,3 +1,15 @@
+# ToastMod
+### a Simple Toasty Notifcation mod for Minecraft 1.12.2
+
+## Features 
+<li>Lets user send custom toat notifications to client</li>
+<li>easily Send custom toast Notification from the Server to client (ie: in modpack)</li>
+
+
+
+
+
+### Forge info 
 -------------------------------------------
 Source installation information for modders
 -------------------------------------------
