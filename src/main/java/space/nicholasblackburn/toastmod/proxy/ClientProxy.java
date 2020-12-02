@@ -3,7 +3,7 @@
  * Released under gnu public licence
  */
 
-package space.nicholasblackburn.ToastMod.proxy;
+package space.nicholasblackburn.toastmod.proxy;
 
-public class CommonProxy {
+public class ClientProxy {
 }
