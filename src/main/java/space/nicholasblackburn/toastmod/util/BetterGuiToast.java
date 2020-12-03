@@ -21,7 +21,7 @@ import javax.annotation.Nullable;
 @SideOnly(Side.CLIENT)
 public class BetterGuiToast implements IToast
 {
-    private final net.minecraft.client.gui.toasts.TutorialToast.Icons icon;
+    private final TutorialToast.Icons icon;
     private  String title = "";
     private  String subtitle = "";
     private IToast.Visibility visibility = IToast.Visibility.SHOW;
@@ -38,8 +38,8 @@ public class BetterGuiToast implements IToast
         this.hasProgressBar = drawProgressBar;
     }
 
-    public BetterGuiToast(TutorialToast.Icons icon) {
-        this.icon = icon;
+    public BetterGuiToast(TutorialToast.Icons icons) {
+        this.icon = icons;
     }
 
     public IToast.Visibility draw(GuiToast toastGui, long delta)

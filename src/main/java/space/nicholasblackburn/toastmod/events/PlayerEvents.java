@@ -27,14 +27,18 @@ public class PlayerEvents{
     static ScaledResolution res = new ScaledResolution(mc);
 
     //Toast control
-    private static  GuiToast gui = new GuiToast(mc);
+
     private static BetterGuiToast test_toset = new BetterGuiToast(TutorialToast.Icons.TREE, "gamer","die", false);
 
     @SubscribeEvent
     public static void pickupItem(EntityItemPickupEvent event) {
 
         Main.logger.info("Item picked up!"+event.getEntityPlayer().getName());
-
+        try {
+            test_toset.draw(mc.getToastGui(), 1);
+        } catch (Exception e ) {
+            Main.logger.fatal(e);
+            }
     }
 
 
