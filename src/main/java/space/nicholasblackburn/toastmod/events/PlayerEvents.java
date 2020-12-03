@@ -5,6 +5,7 @@
 
 package space.nicholasblackburn.toastmod.events;
 
+import net.minecraft.advancements.PlayerAdvancements;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.ScaledResolution;
 import net.minecraft.client.gui.toasts.GuiToast;
@@ -43,10 +44,13 @@ public class PlayerEvents{
 
 
     @SubscribeEvent
-    public static void playerJoin(PlayerInteractEvent event) {
-        Main.logger.info("Item picked up!"+event.getEntityPlayer().getName());
+    public static void playerInteract(PlayerInteractEvent event) {
+        Main.logger.info("Player Right clicked item!"+event.getEntityPlayer().getName());
 
     }
+
+
+
 
 
 }
